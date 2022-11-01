@@ -17,7 +17,11 @@ function CardStatic() {
     <div className="card">
       <img src={ExoImage1} className="card-image" alt="detroit murals" />
       <div className="card-stats">
-        <img src={BookmarkImage} className="card-bookmark" />
+        <img
+          src={BookmarkImage}
+          className="card-bookmark"
+          alt="bookmark icon"
+        />
         <span>4.90</span>
         <span className="card-span-gray">(20) &bull; </span>
         <span className="card-span-gray">Detroit</span>
