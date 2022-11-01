@@ -14,23 +14,25 @@ function App() {
       <Hero />
       {/* <CardStatic /> */}
       {/* Now You can reuse this component and pass new values everytime */}
-      <Card
-        img={ExoImage1}
-        rating={4.9}
-        reviewCount={20}
-        city="Detroit"
-        title="See Detroit's Murals on an Electric Bikes"
-        price={100}
-      />
+      <section className="section-experience-list">
+        <Card
+          img={ExoImage1}
+          rating={4.9}
+          reviewCount={20}
+          city="Detroit"
+          title="See Detroit's Murals on an Electric Bikes"
+          price={100}
+        />
 
-      <Card
-        img={ExoImage2}
-        rating={5.0}
-        reviewCount={4}
-        city="Detroit"
-        title="Discover Emerging Artists in Detroit"
-        price={45}
-      />
+        <Card
+          img={ExoImage2}
+          rating={5.0}
+          reviewCount={4}
+          city="Detroit"
+          title="Discover Emerging Artists in Detroit"
+          price={45}
+        />
+      </section>
     </div>
   );
 }
