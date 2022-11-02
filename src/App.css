@@ -50,9 +50,6 @@ section {
 .card {
   width: 175px;
   font-size: 12px;
-  /* flex: 0 0 auto;
-  display: flex;
-  flex-direction: column; */
   margin-left: 20px;
 }
 
@@ -77,4 +74,12 @@ section {
 
 .span-price-bold {
   font-weight: bold;
+}
+
+/* Section element in App.js that contains all the Card Component calls  */
+.section-experience-list {
+  flex: 0 0 auto;
+  display: flex;
+  overflow: auto;
+  flex-direction: row;
 }

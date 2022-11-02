@@ -1,7 +1,7 @@
 import DetroitMurals from "./images/detroit-murals.jpeg";
 import EmergingArtists from "./images/emerging-artists.webp";
 
-export default [
+const data = [
   {
     id: 1,
     title: "Detroit Murals on e-bike",
@@ -29,3 +29,5 @@ export default [
     openSpots: 0,
   },
 ];
+
+export default data;
