@@ -23,6 +23,7 @@ function App() {
         city={item.location}
         title={item.title}
         price={item.price}
+        openSpots={item.openSpots}
       />
     );
   });
@@ -32,7 +33,6 @@ function App() {
       <Navbar />
       <Hero />
       {/* <CardStatic /> */}
-      {/* Now You can reuse this component and pass new values everytime */}
       <section className="section-experience-list">
         {/* Call  the array that stores JSX elements of card */}
         {cards}

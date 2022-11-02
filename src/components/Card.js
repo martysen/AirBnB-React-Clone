@@ -4,8 +4,18 @@ import React from "react";
 import BookmarkImage from "../images/bookmark-logo.png";
 
 function Card(props) {
+  // Multi line conditional rendering logic
+  let badgeText;
+  if (props.openSpots === 0) {
+    badgeText = "SOLD OUT";
+  } else if (props.city === "Online") {
+    badgeText = "ONLINE";
+  }
   return (
     <div className="card">
+      {/* Conditional rendering of SOLD OUT badge information */}
+      {/* {props.openSpots === 0 && <div className="card-badge">SOLD OUT</div>} */}
+      {badgeText && <div className="card-badge">{badgeText}</div>}
       <img src={props.img} className="card-image" alt="detroit murals" />
       <div className="card-stats">
         <img

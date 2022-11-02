@@ -1,5 +1,6 @@
 import DetroitMurals from "./images/detroit-murals.jpeg";
 import EmergingArtists from "./images/emerging-artists.webp";
+import catImage from "./images/cat.jpg";
 
 const data = [
   {
@@ -27,6 +28,19 @@ const data = [
     },
     location: "Detroit",
     openSpots: 0,
+  },
+  {
+    id: 3,
+    title: "Chat with my Cat",
+    description: "Wanna meow back to my cat?",
+    price: 5,
+    coverImg: catImage,
+    stats: {
+      rating: 4.7,
+      reviewCount: 150,
+    },
+    location: "Online",
+    openSpots: 10,
   },
 ];
 
